@@ -33,3 +33,5 @@ tokenizer = AutoTokenizer.from_pretrained("lisaterumi/postagger-portuguese")
 model = AutoModelForTokenClassification.from_pretrained("lisaterumi/postagger-portuguese")
 
 ```
+
+Aqui você tem um manual dos tipos gramaticais retornados pelo modelo: http://nilc.icmc.usp.br/macmorpho/macmorpho-manual.pdf
