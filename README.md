@@ -34,4 +34,32 @@ model = AutoModelForTokenClassification.from_pretrained("lisaterumi/postagger-po
 
 ```
 
-Aqui você tem um manual dos tipos gramaticais retornados pelo modelo: http://nilc.icmc.usp.br/macmorpho/macmorpho-manual.pdf
+Aqui você tem um manual dos tipos gramaticais retornados pelo modelo:
+
+| Sigla  |  Significado  |
+| ------------------- | ------------------- |
+|  ADJ |  Adjetivo |
+|  ADV |  Advérbio |
+|  ADV-KS |  Advérbio conjuntivo subordinado  |
+|  ADV-KS-REL |   Advérbio relativo subordinado |
+|  ART |  Artigo  |
+|  CUR |  Moeda  |
+|  IN |  Interjeição |
+|  KC |  Conjunção coordenativa |
+|  KS |  Conjunção subordinativa |
+|  N |  Substantivo |
+|  NPROP | Substantivo próprio |
+|  NUM |  Número |
+|  PCP |  Particípio |
+|  PDEN |  Palavra denotativa |
+|  PREP |  Preposição |
+|  PROADJ |  Pronome Adjetivo |
+|  PRO-KS |  Pronome conjuntivo subordinado |
+|  PRO-KS-REL |  Pronome relativo conectivo subordinado |
+|  PROPESS |  Pronome pessoal |
+|  PROSUB |  Pronome nominal |
+|  V | Verbo |
+|  VAUX  | Verbo auxiliar |
+
+
+Mais informações e exemplos em: http://nilc.icmc.usp.br/macmorpho/macmorpho-manual.pdf
