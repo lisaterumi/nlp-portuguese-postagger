@@ -67,5 +67,16 @@ Mais informações e exemplos em: http://nilc.icmc.usp.br/macmorpho/macmorpho-ma
 ## Como citar
 
 ```
-@article{Schneider_Gumiel_Oliveira_Montenegro_Barzotto_Moro_Pagano_Paraiso_2023, place={Brasil}, title={Developing a Transformer-based Clinical Part-of-Speech Tagger for Brazilian Portuguese}, volume={15}, url={https://jhi.sbis.org.br/index.php/jhi-sbis/article/view/1086}, DOI={10.59681/2175-4411.v15.iEspecial.2023.1086}, abstractNote={&amp;lt;p&amp;gt;Electronic Health Records are a valuable source of information to be extracted by means of natural language processing (NLP) tasks, such as morphosyntactic word tagging. Although there have been significant advances in health NLP, such as the Transformer architecture, languages such as Portuguese are still underrepresented. This paper presents taggers developed for Portuguese texts, fine-tuned using BioBERtpt (clinical/biomedical) and BERTimbau (generic) models on a POS-tagged corpus. We achieved an accuracy of 0.9826, state-of-the-art for the corpus used. In addition, we performed a human-based evaluation of the trained models and others in the literature, using authentic clinical narratives. Our clinical model achieved 0.8145 in accuracy compared to 0.7656 for the generic model. It also showed competitive results compared to models trained specifically with clinical texts, evidencing domain impact on the base model in NLP tasks.&amp;lt;/p&amp;gt;}, number={Especial}, journal={Journal of Health Informatics}, author={Schneider, Elisa Terumi Rubel and Gumiel, Yohan Bonescki and Oliveira, Lucas Ferro Antunes de and Montenegro, Carolina de Oliveira and Barzotto, Laura Rubel and Moro, Claudia and Pagano, Adriana and Paraiso, Emerson Cabrera}, year={2023}, month={jul.} }
+@article{
+Schneider_postagger_2023,
+place={Brasil},
+title={Developing a Transformer-based Clinical Part-of-Speech Tagger for Brazilian Portuguese},
+volume={15},
+url={https://jhi.sbis.org.br/index.php/jhi-sbis/article/view/1086},
+DOI={10.59681/2175-4411.v15.iEspecial.2023.1086},
+abstractNote={&amp;lt;p&amp;gt;Electronic Health Records are a valuable source of information to be extracted by means of natural language processing (NLP) tasks, such as morphosyntactic word tagging. Although there have been significant advances in health NLP, such as the Transformer architecture, languages such as Portuguese are still underrepresented. This paper presents taggers developed for Portuguese texts, fine-tuned using BioBERtpt (clinical/biomedical) and BERTimbau (generic) models on a POS-tagged corpus. We achieved an accuracy of 0.9826, state-of-the-art for the corpus used. In addition, we performed a human-based evaluation of the trained models and others in the literature, using authentic clinical narratives. Our clinical model achieved 0.8145 in accuracy compared to 0.7656 for the generic model. It also showed competitive results compared to models trained specifically with clinical texts, evidencing domain impact on the base model in NLP tasks.&amp;lt;/p&amp;gt;},
+number={Especial}, journal={Journal of Health Informatics},
+author={Schneider, Elisa Terumi Rubel and Gumiel, Yohan Bonescki and Oliveira, Lucas Ferro Antunes de and Montenegro, Carolina de Oliveira and Barzotto, Laura Rubel and Moro, Claudia and Pagano, Adriana and Paraiso, Emerson Cabrera},
+year={2023},
+month={jul.} }
 ```
